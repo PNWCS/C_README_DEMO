@@ -1,36 +1,37 @@
+
 # IP Count
 
 Counts how many unique IPv4 addresses appear in an input text file.
 Each line of the input file should contain one IP address.
 
 ## Build
-Prerequisites
+### Prerequisites
 
 A POSIX-compatible environment (Linux/macOS/WSL).
 
-gcc or clang
-
-make (GNU Make)
-
-Build
-make
-
+- gcc or clang
+- make (GNU Make)
+- Build
+- make
 
 This compiles all source files and produces the executable:
-
-./bin/myapp
-
-Clean
+```bash
+./bin/ipcount
+```
+### Clean
+```bash
 make clean
-
-
+```
 Remove all compiled object files and build artifacts.
 
-Rebuild from scratch
+### Rebuild from scratch
+```bash
 make clean && make
-
+```
 ## Run
+```
 ./ipcount [-v] <input_file>
+```
 
 ### Options
 - `-v`  Verbose mode: print each newly seen IP address as it is counted.
