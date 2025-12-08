@@ -11,8 +11,6 @@ A POSIX-compatible environment (Linux/macOS/WSL).
 
 - gcc or clang
 - make (GNU Make)
-- Build
-- make
 
 This compiles all source files and produces the executable:
 ```bash
